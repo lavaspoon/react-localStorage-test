@@ -1,0 +1,20 @@
+.vimeo-player-container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.vimeo-player {
+    margin-bottom: 10px;
+}
+
+.watched-percentage {
+    font-size: 1rem;
+    color: #555;
+}
+
+.completion-message {
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}

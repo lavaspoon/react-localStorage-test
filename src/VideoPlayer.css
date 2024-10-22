@@ -1,0 +1,68 @@
+.video-player-container {
+    max-width: 800px;
+    /* 최대 너비 설정 */
+    margin: 0 auto;
+    /* 중앙 정렬 */
+    padding: 20px;
+    /* 패딩 추가 */
+    background-color: #f9f9f9;
+    /* 배경색 설정 */
+    border-radius: 8px;
+    /* 모서리 둥글게 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* 그림자 효과 */
+}
+
+h1 {
+    text-align: center;
+    /* 제목 중앙 정렬 */
+    color: #333;
+    /* 제목 색상 */
+}
+
+.react-player {
+    margin: 20px 0;
+    /* 비디오와 주변 요소 사이의 마진 */
+    border-radius: 8px;
+    /* 모서리 둥글게 */
+}
+
+.watch-time {
+    text-align: center;
+    /* 시청 시간 중앙 정렬 */
+    margin: 20px 0;
+    /* 마진 추가 */
+    color: #555;
+    /* 색상 설정 */
+}
+
+.controls {
+    text-align: center;
+    /* 버튼 중앙 정렬 */
+    margin-top: 20px;
+    /* 마진 추가 */
+}
+
+button {
+    padding: 10px 20px;
+    /* 버튼 패딩 */
+    margin: 0 10px;
+    /* 버튼 사이의 간격 */
+    border: none;
+    /* 테두리 제거 */
+    border-radius: 4px;
+    /* 모서리 둥글게 */
+    background-color: #007bff;
+    /* 버튼 배경색 */
+    color: white;
+    /* 버튼 글자 색상 */
+    cursor: pointer;
+    /* 마우스 커서 포인터로 변경 */
+    transition: background-color 0.3s;
+    /* 배경색 전환 효과 */
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* 호버 시 배경색 변경 */
+}

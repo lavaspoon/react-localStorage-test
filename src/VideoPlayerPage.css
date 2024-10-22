@@ -1,0 +1,16 @@
+.video-player-page {
+    padding: 30px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.video-player-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #666;
+}

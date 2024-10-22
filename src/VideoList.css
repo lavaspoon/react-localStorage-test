@@ -1,0 +1,43 @@
+.video-list-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.video-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-item {
+    list-style: none;
+}
+
+.video-thumbnail {
+    width: 200px;
+    height: 120px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.video-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #444;
+    font-weight: bold;
+}
+
+.video-link {
+    text-decoration: none;
+}
